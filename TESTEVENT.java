@@ -3,7 +3,9 @@ package me.GargatheOro.PathfinderCore.Main;
 import me.GargatheOro.PathfinderCore.Items.ItemInit;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.event.world.BlockEvent.BreakEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+@SubscribeEvent
 public class TESTEVENT {
 	public void onMineEvent(BreakEvent event) {
 		EntityPlayer miner = event.getPlayer();
