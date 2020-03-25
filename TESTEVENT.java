@@ -5,8 +5,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.event.world.BlockEvent.BreakEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-//This annotation is used to tell Minecraft you are modifying an event.
-@SubscribeEvent
 public class TESTEVENT {
 	//OnMineEvent can be called whatever you want. BreakEvent is the official Minecraft code function for when someone breaks a block.
 	//event can be whatever you want to call it, think of it like an acronym that refers to the BreakEvent.
